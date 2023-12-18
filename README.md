@@ -20,10 +20,12 @@ we need to pass the program file, location of the dataset, the algorithm you wan
 after that we need to pass the number for which we want to execute the algorithm and a number for the restart parameter and the number for the maximum flips allowed
 and inplace of wp, we need to pass probability probably in the form of float and t1 is the length of the tabu list and at the end, we need to pass the student id 
 
-Here is the example that I use to run the program :
+## Here is the example that I use to run the program :
 
 python main.py myfolder/ gsat 10 50 500 0.1 10 241765 2
 
+## For second exercise 
+python main.py myfolder/ gsat 10 50 500 0.1 10 241765 1
 
 ## Aditional Stuff
 In the code, I have added many additional functions
